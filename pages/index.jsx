@@ -260,7 +260,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-white/40 text-xs">
-            Not affiliated with FUTA administration. Non-commercial.
+            Made by a student who got tired of being stuck.
           </div>
         </div>
       </footer>
