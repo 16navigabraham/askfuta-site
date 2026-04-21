@@ -100,16 +100,32 @@ export default function Privacy() {
           <div>
             <h2 className="text-white font-semibold text-lg mb-3">Deleting your data</h2>
             <p>
-              Type <span className="text-futa-purpleLight font-mono">reset</span> in
-              the chat and your conversation history gets wiped. If you want your phone
-              number and everything attached to it removed entirely, email me at{" "}
+              You're in control of your data. Two options, right from the chat:
+            </p>
+            <ul className="list-disc pl-5 mt-3 space-y-2 text-white/70">
+              <li>
+                Type <span className="text-futa-purpleLight font-mono">clear chat</span>{" "}
+                (or <span className="text-futa-purpleLight font-mono">/clear</span>) to
+                wipe your conversation history. Keeps your phone number so the bot
+                still recognises you next time.
+              </li>
+              <li>
+                Type{" "}
+                <span className="text-futa-purpleLight font-mono">delete account</span>{" "}
+                (or <span className="text-futa-purpleLight font-mono">/delete</span>)
+                to wipe everything, phone number, messages, summary, all of it. After
+                that, it's like we never spoke.
+              </li>
+            </ul>
+            <p className="mt-3">
+              If any of that doesn't work, email{" "}
               <a
                 href="mailto:navigatorabraham17@gmail.com"
                 className="text-futa-purpleLight hover:underline"
               >
                 navigatorabraham17@gmail.com
               </a>{" "}
-              and I'll do it manually.
+              and I'll handle it manually.
             </p>
           </div>
 
