@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Mail, ArrowRight, MapPin, MessageCircle } from "lucide-react";
+import { ArrowRight, MapPin, MessageCircle } from "lucide-react";
 import Background from "@/components/Background";
 
 const CHATS = [
@@ -51,10 +51,12 @@ export default function Home() {
         </div>
 
         <a
-          href="mailto:hello@askfuta.xyz"
+          href="https://wa.me/2349168313946?text=Hi%20AskFUTA"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm text-white/60 hover:text-white flex items-center gap-1.5"
         >
-          <Mail size={14} /> hello@askfuta.xyz
+          <MessageCircle size={14} /> WhatsApp
         </a>
       </header>
 
@@ -218,7 +220,7 @@ export default function Home() {
             Things it knows
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-10">
-            The answers live here so you stop asking the group chat.
+            The answers live here. So you stop waiting on replies that never come.
           </h2>
         </motion.div>
 
@@ -260,12 +262,6 @@ export default function Home() {
           <div className="text-white/40 text-xs">
             Not affiliated with FUTA administration. Non-commercial.
           </div>
-          <a
-            href="mailto:hello@askfuta.xyz"
-            className="text-white/60 hover:text-white flex items-center gap-1.5"
-          >
-            <Mail size={14} /> hello@askfuta.xyz
-          </a>
         </div>
       </footer>
     </div>
