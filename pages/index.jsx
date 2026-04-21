@@ -5,19 +5,19 @@ import Background from "@/components/Background";
 
 const CHATS = [
   {
-    tag: "Bursary, 2:47pm",
-    q: "I paid my fees two weeks ago and the portal still says unpaid abeg",
-    a: "Check that your RRR code on the receipt matches the one on the portal, if it matches, send it to bursary_admin@futa.edu.ng with your matric number. They reconcile Remita payments twice a week. Give it 48 hours before you follow up in person.",
+    tag: "portal wahala, 2:47pm",
+    q: "i paid my fees last week and the portal still says unpaid abeg",
+    a: "Go back to firarsapp.futa.edu.ng, payment page, scroll to 'View Generated Invoice(s)' and click the Refresh button under Action. That flips the status to Paid. If Refresh still doesn't update it, that's a portal-side issue, go to CRC (Computer Resource Centre), not Bursary. Bursary doesn't handle portal transaction status.",
   },
   {
-    tag: "200L IFT student, 9:12am",
-    q: "when is siwes registration opening this year",
-    a: "For SOC (IFT, CSC, SEN, CYB, ITC): online registration via eportal opened last week and closes Friday. You need to upload your logbook PDF and your industrial attachment letter. No late entries, they're strict about this one.",
+    tag: "300L IFT student, 9:12am",
+    q: "when is siwes starting this year",
+    a: "400L second semester, April 20th 2026 to October 2026 (6 months). You need 3 documents: SCAF form (submit to ITF Area Office within 2 weeks of starting), Form 8 (Part A you fill, Part B your employer, Part C your school supervisor), and your logbook, 24 weekly entries + 24 supervisor stamps with a passport photo on the cover page.",
   },
   {
-    tag: "fresher, Obakekere",
-    q: "how do i get to south gate from my hostel without transport money",
-    a: "From Obakekere walk down to the T-junction, turn left at FUTA junction. It's a 20-minute walk to South Gate. Avoid the road behind the farm at night.",
+    tag: "fresher, Apatapiti",
+    q: "how do i move around campus without spending money",
+    a: "If you're in Apatapiti you're already closest to South Gate, 15-20 min walk in. Campus shuttle is ₦200 flat. Okada isn't allowed inside campus, don't waste time looking for one, only works off-campus. Most people just walk, the campus is big but doable. Keep your student ID on you at all times.",
   },
 ];
 
