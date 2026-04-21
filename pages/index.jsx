@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, MapPin, MessageCircle } from "lucide-react";
 import Background from "@/components/Background";
 
@@ -258,6 +259,10 @@ export default function Home() {
                 <MapPin size={11} /> Federal University of Technology, Akure
               </div>
             </div>
+          </div>
+          <div className="flex items-center gap-5 text-white/40 text-xs">
+            <Link href="/privacy" className="hover:text-white/80">Privacy</Link>
+            <Link href="/terms" className="hover:text-white/80">Terms</Link>
           </div>
           <div className="text-white/40 text-xs">
             Made by a student who got tired of being stuck.
