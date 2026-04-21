@@ -144,7 +144,14 @@ export default function Terms() {
           <div>
             <h2 className="text-white font-semibold text-lg mb-3">Contact</h2>
             <p>
-              Message AskFUTA on WhatsApp for questions, feedback, or to request
+              Email{" "}
+              <a
+                href="mailto:navigatorabraham17@gmail.com"
+                className="text-futa-purpleLight hover:underline"
+              >
+                navigatorabraham17@gmail.com
+              </a>{" "}
+              or message AskFUTA on WhatsApp for questions, feedback, or to request
               your data be deleted.
             </p>
           </div>

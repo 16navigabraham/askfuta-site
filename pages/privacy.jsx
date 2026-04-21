@@ -102,8 +102,14 @@ export default function Privacy() {
             <p>
               Type <span className="text-futa-purpleLight font-mono">reset</span> in
               the chat and your conversation history gets wiped. If you want your phone
-              number and everything attached to it removed entirely, message me on
-              WhatsApp and I'll do it manually.
+              number and everything attached to it removed entirely, email me at{" "}
+              <a
+                href="mailto:navigatorabraham17@gmail.com"
+                className="text-futa-purpleLight hover:underline"
+              >
+                navigatorabraham17@gmail.com
+              </a>{" "}
+              and I'll do it manually.
             </p>
           </div>
 
@@ -136,7 +142,14 @@ export default function Privacy() {
           <div>
             <h2 className="text-white font-semibold text-lg mb-3">Reaching me</h2>
             <p>
-              Message AskFUTA on WhatsApp. I read everything myself.
+              Email{" "}
+              <a
+                href="mailto:navigatorabraham17@gmail.com"
+                className="text-futa-purpleLight hover:underline"
+              >
+                navigatorabraham17@gmail.com
+              </a>{" "}
+              or message AskFUTA on WhatsApp. I read everything myself.
             </p>
           </div>
         </div>
