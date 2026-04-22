@@ -187,8 +187,11 @@ export default function Privacy() {
             <Link href="/privacy" className="hover:text-white/80">Privacy</Link>
             <Link href="/terms" className="hover:text-white/80">Terms</Link>
           </div>
-          <div className="text-white/40 text-xs">
+          <div className="text-white/40 text-xs text-left md:text-right">
             Made by a student who got tired of being stuck.
+            <div className="mt-1 text-white/30">
+              Operated by WEB3 LAB CONCEPT.
+            </div>
           </div>
         </div>
       </footer>

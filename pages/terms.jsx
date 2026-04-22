@@ -133,6 +133,15 @@ export default function Terms() {
           </div>
 
           <div>
+            <h2 className="text-white font-semibold text-lg mb-3">Operator</h2>
+            <p>
+              AskFUTA is operated by <strong className="text-white">WEB3 LAB CONCEPT</strong>,
+              a registered Nigerian business. For official correspondence, use the
+              contact details below.
+            </p>
+          </div>
+
+          <div>
             <h2 className="text-white font-semibold text-lg mb-3">Trademarks</h2>
             <p>
               "FUTA" and "Federal University of Technology, Akure" belong to the
@@ -174,8 +183,11 @@ export default function Terms() {
             <Link href="/privacy" className="hover:text-white/80">Privacy</Link>
             <Link href="/terms" className="hover:text-white/80">Terms</Link>
           </div>
-          <div className="text-white/40 text-xs">
+          <div className="text-white/40 text-xs text-left md:text-right">
             Made by a student who got tired of being stuck.
+            <div className="mt-1 text-white/30">
+              Operated by WEB3 LAB CONCEPT.
+            </div>
           </div>
         </div>
       </footer>
