@@ -46,7 +46,7 @@ export default function Privacy() {
         <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight leading-[1.1] mb-4">
           What I do with your data.
         </h1>
-        <p className="text-white/50 text-sm mb-12">Last updated: April 2026</p>
+        <p className="text-white/50 text-sm mb-12">Last updated: 27 April 2026</p>
 
         <div className="space-y-10 text-white/80 text-[15px] leading-relaxed">
           <p>
@@ -61,6 +61,18 @@ export default function Privacy() {
               That's it. No email, no matric number, no passwords, nothing I didn't
               directly receive from your chat.
             </p>
+            <p className="mt-3">
+              I also log anonymous activity events, message timestamps, response
+              latency, error counts, using a one-way hash of your number. I can't
+              reverse it to identify you. This is what powers the internal dashboard
+              I use to spot bugs and improve replies.
+            </p>
+            <p className="mt-3">
+              When you react to a bot message (👍 or 👎), I record the reaction.
+              For 👎 specifically, I also store the bot's reply you flagged and the
+              question that triggered it, so I can review and fix bad answers.
+              Reacting is optional, only what you explicitly flag gets reviewed.
+            </p>
           </div>
 
           <div>
@@ -71,9 +83,11 @@ export default function Privacy() {
               the only reason, conversation context.
             </p>
             <p className="mt-3">
-              After a while, older messages get auto-summarized into a short paragraph
-              (so the bot still has context but isn't storing a thousand-message
-              transcript forever).
+              Raw chat messages are deleted after 7 days. Before that, an anonymized
+              summary (your level, department, what topics you've asked about) gets
+              saved so the bot still has context. Your account stays until you
+              delete it. Anything you flag as a bad reply (by reacting 👎) is kept
+              so I can review and fix it.
             </p>
           </div>
 
@@ -81,7 +95,11 @@ export default function Privacy() {
             <h2 className="text-white font-semibold text-lg mb-3">Who sees it</h2>
             <p>Short list:</p>
             <ul className="list-disc pl-5 mt-3 space-y-2 text-white/70">
-              <li>Me, the student who built this. Only when debugging.</li>
+              <li>
+                Me. AskFUTA is operated by WEB3 LAB CONCEPT, a one-person business
+                I run alone, no employees, no contractors. Only I access logs, only
+                when debugging.
+              </li>
               <li>
                 Meta (WhatsApp), because that's how the message gets to you. Their
                 privacy policy applies to the chat transport.

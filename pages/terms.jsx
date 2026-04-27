@@ -46,7 +46,7 @@ export default function Terms() {
         <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight leading-[1.1] mb-4">
           The fine print, in plain English.
         </h1>
-        <p className="text-white/50 text-sm mb-12">Last updated: April 2026</p>
+        <p className="text-white/50 text-sm mb-12">Last updated: 27 April 2026</p>
 
         <div className="space-y-10 text-white/80 text-[15px] leading-relaxed">
           <p>
@@ -162,6 +162,15 @@ export default function Terms() {
               </a>{" "}
               or message AskFUTA on WhatsApp for questions, feedback, or to request
               your data be deleted.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-white font-semibold text-lg mb-3">Governing law</h2>
+            <p>
+              This service is operated under Nigerian law and complies with the
+              Nigeria Data Protection Act 2023 (NDPA). Any dispute falls under the
+              jurisdiction of the courts of Ondo State, Nigeria.
             </p>
           </div>
         </div>
